@@ -11,9 +11,13 @@ It processes an array to return predefined values, based on the requirements of 
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-## Demo
+## Repo
 
 https://github.com/ammocodes/Console-Finances
+
+## Deployed URL
+
+https://ammocodes.github.io/Console-Finances/
 
 ## Documentation
 
