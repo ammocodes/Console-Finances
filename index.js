@@ -119,11 +119,13 @@ var finances = [
   let smallestValueArray = finances.find((finance) => finance[1] === smallestValue);
   
   // displaying the results and rounding the numbers
-  console.log(monthCount); 
-  console.log(totalProfitLoss);
-  console.log(average.toFixed(2));
-  console.log(highestValueArray[0] + ": " + highestValue);
-  console.log(smallestValueArray[0] + ": " + smallestValue);
+  console.log("Financial Analysis"); 
+  console.log("----------------------------"); 
+  console.log("Total Months: " + monthCount); 
+  console.log("Total: " + totalProfitLoss);
+  console.log("Average Change: " + average.toFixed(2));
+  console.log("Greatest Increase in Profits: " + highestValueArray[0] + highestValue);
+  console.log("Greatest Decrease in Profits: " + smallestValueArray[0] + smallestValue);
   
   
   
@@ -135,7 +137,11 @@ var finances = [
   
   
   /*
+  
+  Explaining code from the lesson
+  
   let array2D = [[1, 2, 3], [4, 5, 6]];
+  
   
   array2D[0][0]; 1
   */
